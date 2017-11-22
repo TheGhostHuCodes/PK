@@ -1,5 +1,7 @@
 package com.programming.kotlin.chapter01
 
+import com.programming.kotlin.chapter03.BasicGraph
+
 fun main(args: Array<String>) {
     println("Hello World!")
     val student = Student("Alexandra Miller")
@@ -11,4 +13,7 @@ fun main(args: Array<String>) {
     val person2 = Person("Jane", "Smith")
     println("${person1.firstName}, ${person1.lastName} is ${person1.age} years old")
     println("${person2.firstName}, ${person2.lastName} is ${person2.age?.toString() ?: "?"} years old")
+
+    val line = BasicGraph.Line(1, 0, -2, 0)
+    line.draw()
 }
