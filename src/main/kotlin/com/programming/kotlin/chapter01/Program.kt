@@ -1,6 +1,7 @@
 package com.programming.kotlin.chapter01
 
 import com.programming.kotlin.chapter03.BasicGraph
+import com.programming.kotlin.chapter03.Person
 
 fun main(args: Array<String>) {
     println("Hello World!")

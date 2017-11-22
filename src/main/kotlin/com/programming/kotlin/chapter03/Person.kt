@@ -1,4 +1,4 @@
-package com.programming.kotlin.chapter01
+package com.programming.kotlin.chapter03
 
 class Person constructor(val firstName: String, val lastName: String, val age: Int?) {
     init {
