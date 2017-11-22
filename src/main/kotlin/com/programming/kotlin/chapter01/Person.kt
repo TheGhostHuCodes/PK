@@ -8,4 +8,5 @@ class Person constructor(val firstName: String, val lastName: String, val age: I
             require(age in 0..149) {"Invalid age argument."}
         }
     }
+    constructor(firstName: String, lastName: String) : this(firstName, lastName, null)
 }
